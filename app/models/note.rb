@@ -1,7 +1,8 @@
 class Note < ActiveRecord::Base
     belongs_to :category
+    belongs_to :user
 
     def user
-        return self.category.user
+        self.category.user
     end
 end
