@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-    has_many :notes, through :categories
+    has_many :notes, through: :categories
 end
