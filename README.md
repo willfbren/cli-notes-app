@@ -1,1 +1,1 @@
-# Intro to Active Record
+# CLI Notes App
